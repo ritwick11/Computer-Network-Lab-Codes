@@ -60,7 +60,6 @@ class both2D
 			
 			    if(check%2==0)
 				    data[i][3]=0;
-			
 			    else
 				    data[i][3]=1;
 		    }
@@ -77,7 +76,6 @@ class both2D
 			
 			    if(check%2==0)
 				data[3][j]=0;
-			
 			    else
 				    data[3][j]=1;
 		    }
