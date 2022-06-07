@@ -1,5 +1,5 @@
 import java.util.*;
-class hamming
+class hammingCode
 {
     public static void main(String[] args)
     {
