@@ -4,14 +4,14 @@ class both2D
     public static void main (String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter '0' for Odd parity & '1' for Even parity");
+        System.out.printf("Enter '0' for Odd parity & '1' for Even parity: ");
         int parity = sc.nextInt();
         int i, j;
         int [][] data = new int [4][4];
 
         if(parity==0)
         {
-            System.out.println("\nWelcome to 2D ODD Parity Generation and Detection\n\n");
+            System.out.println("\n\nWelcome to 2D ODD Parity Generation and Detection\n\n");
             for(i=0; i<3; i++)
             {
                 int check = 0;
